@@ -19,8 +19,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        // Google Maps API key — replace with your own
-        manifestPlaceholders["MAPS_API_KEY"] = project.findProperty("MAPS_API_KEY") as? String ?: ""
     }
 
     buildTypes {
@@ -76,10 +74,9 @@ dependencies {
     ksp(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
 
-    // Google Maps
-    implementation(libs.maps.compose)
+    // Maps
+    implementation(libs.maplibre)
     implementation(libs.play.services.location)
-    implementation(libs.play.services.maps)
 
     // Network
     implementation(libs.okhttp)
