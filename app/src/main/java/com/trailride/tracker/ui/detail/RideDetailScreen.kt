@@ -70,6 +70,10 @@ fun RideDetailScreen(
             ) {
                 item { RideSummaryCard(ride = d.ride) }
 
+                if (d.trackPoints.size >= 2) {
+                    item { RouteMapCard(trackPoints = d.trackPoints) }
+                }
+
                 if (d.trackPoints.isNotEmpty()) {
                     item { ElevationChart(trackPoints = d.trackPoints) }
                 }
