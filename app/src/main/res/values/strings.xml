@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrailRide Tracker</string>
+    <string name="notification_channel_tracking">Ride Tracking</string>
+    <string name="notification_tracking_title">Tracking Ride</string>
+    <string name="tab_ride">Ride</string>
+    <string name="tab_history">History</string>
+    <string name="tab_compare">Compare</string>
+    <string name="tab_settings">Settings</string>
+</resources>

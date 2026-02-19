@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Mountain trail icon, centered in safe zone (24-84) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 L38,60 L44,60 L36,75 L72,75 L64,60 L70,60 Z" />
+    <!-- Trail path -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M42,75 Q48,65 54,70 Q60,75 66,68"
+        android:strokeWidth="2"
+        android:strokeColor="#C8E6C9" />
+</vector>
